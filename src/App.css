@@ -1,0 +1,73 @@
+.contentOne{
+  background: url(./components/imgs/фон.jpg) no-repeat center center/cover;
+  height: 900px;
+  color: white;
+  text-align: center;
+}
+.logo{
+  padding: 76px;
+}
+.zagolovok{
+  font-family: Noto Sans;
+font-style: Bold;
+font-size: 64px;
+}
+.connections{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 12em;
+  gap: 20px;
+}
+.connections a{
+  color: azure;
+}
+.connections a:hover{
+  color: rgb(167, 180, 180);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:420px){
+  .contentOne{
+    background: url(./components/imgs/фон.jpg) no-repeat center center/cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+  }
+  .zagolovok{
+    font-family: Noto Sans;
+  font-style: Bold;
+  font-size: 30px;
+  }
+  .connections{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 8em;
+    gap: 13px;
+  }
+  .contentOne img{
+    padding-top: 30px;
+    width: 200px;
+  }
+  .connections svg {
+    width: 20px;
+  }
+  .dohod{
+    font-size: 20px;
+  }
+}
+
