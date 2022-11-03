@@ -1,0 +1,23 @@
+.textOne{
+    width: 510px;
+}
+.bi{
+    display: flex;
+    justify-content: center;
+    gap: 89px;
+}
+@media (max-width:420px){
+    .textOne{
+        width: 300px;
+        margin: 10px 35px;
+    }
+    .bi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+    .bi img{
+       /* margin: 15px; */
+    }
+}
