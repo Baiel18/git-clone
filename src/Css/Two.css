@@ -1,56 +1,143 @@
-.textOne{
+.textOne {
     width: 510px;
 }
-.bi{
+
+.bi {
     display: flex;
     justify-content: center;
     gap: 89px;
 }
 
-.textTwo ul{
-   display: flex;
-   list-style: none;
-   gap: 40px;
+.textTwo ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
 }
-.textTwo ul li a{
+
+.textTwo ul li a {
     text-decoration: none;
     color: rgb(45, 48, 51);
 }
-.textTwo ul li a:hover{
+
+.textTwo ul li a:hover {
     color: rgb(109, 125, 125);
 }
-.bi-tree{
+
+.bi-two {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.bi-tree {
     display: flex;
     gap: 40px;
+    margin-top: 125px;
+    margin-bottom: 80px;
 }
-.bi-four{
+
+.bi-four {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.bi-four p{
+
+.bi-four p {
     width: 235px;
 }
-.arrow{
+
+.arrow {
     display: flex;
     gap: 22px;
 }
-.bi-six{
+
+.bi-six {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 16px 45px;
 }
-.bi-six p{
+
+.bi-six p {
     width: 235px;
 }
-@media (max-width:420px){
-    .textOne{
+
+.ci-text {
+    width: 600px;
+    height: 130px;
+}
+
+.bi-ci {
+    margin-top: 50px;
+}
+
+@media (max-width:420px) {
+    .textOne {
         width: 300px;
         margin: 10px 35px;
     }
-    .bi{
+
+    .bi {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 0px;
     }
+
+    /* .bi img{
+        padding-right: 50px;
+    } */
+    .bi-two {
+        display: block;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .bi-big {
+        display: grid;
+        place-items: center;
+    }
+
+    .bi-six {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .bi-six p {
+        width: 320px;
+    }
+
+    .ci-text {
+        width: 350px;
+        height: 150px;
+    }
+
+    .bi-ci {
+        margin-top: 30px;
+        display: grid;
+        place-items: center;
+    }
+
+    .bi-ci img {
+        width: 350px;
+
+    }
+
+    .bi-tree {
+        display: grid;
+        place-items: center;
+        gap: 40px;
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+    .bi-tree img{
+        width: 350px;
+    }
+
+    .bi-four p{
+        width: 350px;
+    }
+
 }
