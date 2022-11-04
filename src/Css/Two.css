@@ -6,6 +6,42 @@
     justify-content: center;
     gap: 89px;
 }
+
+.textTwo ul{
+   display: flex;
+   list-style: none;
+   gap: 40px;
+}
+.textTwo ul li a{
+    text-decoration: none;
+    color: rgb(45, 48, 51);
+}
+.textTwo ul li a:hover{
+    color: rgb(109, 125, 125);
+}
+.bi-tree{
+    display: flex;
+    gap: 40px;
+}
+.bi-four{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bi-four p{
+    width: 235px;
+}
+.arrow{
+    display: flex;
+    gap: 22px;
+}
+.bi-six{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bi-six p{
+    width: 235px;
+}
 @media (max-width:420px){
     .textOne{
         width: 300px;
@@ -16,8 +52,5 @@
         flex-direction: column;
         justify-content: center;
         gap: 0px;
-    }
-    .bi img{
-       margin: 15px;
     }
 }
